@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://motty.db.elephantsql.com:5432/otaapbbc
+    username: otaapbbc
+    password: EhaV_2vJftfbnHHoaWulTosLxN3FWCUk
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  error:
+    include-message: always
+  port: 8080
